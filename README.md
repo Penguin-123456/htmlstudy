@@ -1,2 +1,2 @@
-# htmlstudy
-htmlの勉強ができるサイト
+<h1>HTMLSTUDY〜HTMLを勉強できるサイト</h1>
+<p>まだURLができていないです。もう少しおまちください。</p>
