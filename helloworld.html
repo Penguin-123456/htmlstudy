@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTMLの勉強</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="prism.css">
-  </head>
-  <body class="line-numbers">
-    <div class="navbar-fixed">
-      <nav class="orange darken-1">
-        <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo">HTMLの勉強</a>
-          <ul class="right hide-on-med-and-down"></ul>
-        </div>
-      </nav>
-    </div>
-    <div class="container">
-      <h1>HTMLでHello,World!と表示させる</h1>
-      <p>今回は、HTMLでHello,World!と表示させる方法を紹介します。</p>
-      <h3>Hello,World!とは</h2>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>HTMLの勉強</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="prism.css">
+</head>
+
+<body class="line-numbers">
+  <div class="navbar-fixed">
+    <nav class="orange darken-1">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">HTMLの勉強</a>
+        <ul class="right hide-on-med-and-down"></ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    <h1>HTMLでHello,World!と表示させる</h1>
+    <p>今回は、HTMLでHello,World!と表示させる方法を紹介します。</p>
+    <h3>Hello,World!とは</h2>
       <p>Wikipediaには、Hello,World!について次のように書いてありました。</p>
       <div class="box-016">
         <p>
@@ -35,9 +31,7 @@
           world!」やそれに類する文字列を表示するプログラムの通称である。多くのプログラミング言語において非常に単純なプログラムであり、プログラミング言語の入門書で、プログラムを動かすためのプログラミング言語の基本文法の解説例として提示される。
         </p>
         <p class="grey-text darken-5 right-align">
-          - Wikipedia(<a href="https://ja.wikipedia.org/wiki/Hello_world"
-            >https://ja.wikipedia.org/wiki/Hello_world</a
-          >)
+          - Wikipedia(<a href="https://ja.wikipedia.org/wiki/Hello_world">https://ja.wikipedia.org/wiki/Hello_world</a>)
         </p>
       </div>
       <h3>htmlファイルの保存方法、開き方</h3>
@@ -46,95 +40,88 @@
       <p>完成すると、下記のようになります。</p>
       <div class="box-001">
         <svg class="window-bar" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ウインドウのボタン">
-            <circle cx="25" cy="12" r="5.5" fill="#f48384"/>
-            <circle cx="45" cy="12" r="5.5" fill="#fbd172"/>
-            <circle cx="65" cy="12" r="5.5" fill="#82c880"/>
+          <circle cx="25" cy="12" r="5.5" fill="#f48384" />
+          <circle cx="45" cy="12" r="5.5" fill="#fbd172" />
+          <circle cx="65" cy="12" r="5.5" fill="#82c880" />
         </svg>
-        <p><h1>Hello,World!</h1></p>
-        </div>
-        <h3>実際のプログラム</h3>
-        <p>プログラムは次のようになります。</p>
-    <pre><code class="language-markup">
+        <p>
+        <h1>Hello,World!</h1>
+        </p>
+      </div>
+      <h3>実際のプログラム</h3>
+      <p>プログラムは次のようになります。</p>
+      <pre><code class="language-markup">
         &lt;h1>Hello,World!&lt;/h1>
               </code></pre>
-        <p>コピーしてお使いください。</p>
+      <p>コピーしてお使いください。</p>
+  </div>
+  <footer class="page-footer orange darken-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">HTMLの勉強</h5>
+          <p class="grey-text text-lighten-4">HTMLの勉強をするサイトです。</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">SNS</h5>
+          <ul>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://github.com/penguin-123456" target="_blank">
+                <i class="material-icons">insert_link</i>Github</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://scratch.mit.edu/penguin-123456" target="_blank"><i
+                  class="material-icons">insert_link</i>Scratch</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <footer class="page-footer orange darken-1">
+    <div class="footer-copyright">
       <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">HTMLの勉強</h5>
-            <p class="grey-text text-lighten-4">HTMLの勉強をするサイトです。</p>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">SNS</h5>
-            <ul>
-              <li>
-                <a
-                  class="grey-text text-lighten-3"
-                  href="https://github.com/penguin-123456"
-                  target="_blank"
-                >
-                  <i class="material-icons">insert_link</i>Github</a
-                >
-              </li>
-              <li>
-                <a
-                  class="grey-text text-lighten-3"
-                  href="https://scratch.mit.edu/penguin-123456"
-                  target="_blank"
-                  ><i class="material-icons">insert_link</i>Scratch</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
+        © 2024 Penguin-123456
+        <a class="grey-text text-lighten-4 right" href="#"><s>More Links</s></a>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
-          © 2024 Penguin-123456
-          <a class="grey-text text-lighten-4 right" href="#"
-            ><s>More Links</s></a
-          >
-        </div>
-      </div>
-    </footer>
-  </body>
-  <style>
-    .box-016 {
-      position: relative;
-      max-width: 100%;
-      margin: 0 auto;
-      padding: 1em 1.5em;
-      border-left: 5px solid #fb8c00;
-      box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
-      background-color: #fafafa;
-      color: #333;
-    }
-    .box-001 {
-        position: relative;
-        margin: 0 auto;
-        padding: calc(1em + 25px) 1.5em 1em;
-        border: 2px solid #f2f2f2;
-        border-radius: 5px;
-        overflow: auto;
-    }
+    </div>
+  </footer>
+</body>
+<style>
+  .box-016 {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1em 1.5em;
+    border-left: 5px solid #fb8c00;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    background-color: #fafafa;
+    color: #333;
+  }
 
-    .box-001 svg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 25px;
-        background-color: #f2f2f2;
-    }
+  .box-001 {
+    position: relative;
+    margin: 0 auto;
+    padding: calc(1em + 25px) 1.5em 1em;
+    border: 2px solid #f2f2f2;
+    border-radius: 5px;
+    overflow: auto;
+  }
 
-    .box-001 p {
-        margin: 0;
-        padding: 0;
-    }
-  </style>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="prism.js">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  .box-001 svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    background-color: #f2f2f2;
+  }
+
+  .box-001 p {
+    margin: 0;
+    padding: 0;
+  }
+</style>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="prism.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </html>
