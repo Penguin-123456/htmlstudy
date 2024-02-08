@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>HTMLの勉強</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="css/prism.css">
+  <link rel="icon" href="img/code-solid.svg">
+</head>
+
+<body class="line-numbers">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2VL67PB2KW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2VL67PB2KW');
+  </script>
+  <div class="navbar-fixed">
+    <nav class="orange darken-1">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">HTMLの勉強</a>
+        <ul class="right hide-on-med-and-down"></ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    <h1>HTMLで表を作る</h1>
+    <p>HTMLで表を作る方法を知っていますか？今回は作り方を説明します。。</p>
+      <h3>完成例</h3>
+      <p>完成すると、下記のようになります。</p>
+      <div class="box-001">
+        <svg class="window-bar" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ウインドウのボタン">
+          <circle cx="25" cy="12" r="5.5" fill="#f48384" />
+          <circle cx="45" cy="12" r="5.5" fill="#fbd172" />
+          <circle cx="65" cy="12" r="5.5" fill="#82c880" />
+        </svg>
+        <p><table border="1">
+                <tr>
+                <td>名前</td>
+                <td>生年</td>
+                <td>月</td>
+                <td>日</td>
+            </tr>
+            <tr>
+                <td>佐藤 太郎</td>
+                <td>2022</td>
+                <td>4</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>田中 花子</td>
+                <td>2023</td>
+                <td>2</td>
+                <td>01</td>
+            </tr>
+        </table>
+        </p>
+      </div>
+      <h3>実際のプログラム</h3>
+      <p>プログラムは次のようになります。</p>
+      <pre><code class="language-markup">&lt;table border=&quot;1&quot;&gt;
+        &lt;tr&gt;
+        &lt;td&gt;名前&lt;/td&gt;
+        &lt;td&gt;生年&lt;/td&gt;
+        &lt;td&gt;月&lt;/td&gt;
+        &lt;td&gt;日&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;佐藤 太郎&lt;/td&gt;
+        &lt;td&gt;2022&lt;/td&gt;
+        &lt;td&gt;4&lt;/td&gt;
+        &lt;td&gt;29&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;田中 花子&lt;/td&gt;
+        &lt;td&gt;2023&lt;/td&gt;
+        &lt;td&gt;2&lt;/td&gt;
+        &lt;td&gt;01&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+      <p>コピーしてお使いください。</p>
+  </div>
+  <footer class="page-footer orange darken-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">HTMLの勉強</h5>
+          <p class="grey-text text-lighten-4">HTMLの勉強をするサイトです。</p>
+          <p class="grey-text text-lighten-4">当サイトは<a href="https://analytics.google.com/" target="_blank">Google
+              Analytics</a>を利用しています。このGoogle
+            Analyticsはデータの収集のためにCookieを使用しています。このデータは匿名で収集されており、個人を特定するものではありません。この機能はCookieを無効にすることで収集を拒否することが出来ます。収集されたくない場合は、ブラウザの設定で設定を変更してください。詳しい変更の方法は、<a
+              href="cookie.html" target="_blank">こちら</a>をご覧ください。また、詳細は<a
+              href="https://marketingplatform.google.com/about/analytics/terms/jp/">Google Analytics利用規約</a>や<a
+              href="https://policies.google.com/technologies/ads?hl=ja">Googleのポリシーと規約ページ</a>をご覧ください。</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">SNS</h5>
+          <ul>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://github.com/penguin-123456" target="_blank">
+                <i class="material-icons">insert_link</i>Github</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://scratch.mit.edu/penguin-123456" target="_blank"><i
+                  class="material-icons">insert_link</i>Scratch</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2024 Penguin-123456
+        <a class="grey-text text-lighten-4 right" href="#"><s>More Links</s></a>
+      </div>
+    </div>
+  </footer>
+</body>
+<style>
+  .box-001 {
+    position: relative;
+    margin: 0 auto;
+    padding: calc(1em + 25px) 1.5em 1em;
+    border: 2px solid #f2f2f2;
+    border-radius: 5px;
+    overflow: auto;
+  }
+
+  .box-001 svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    background-color: #f2f2f2;
+  }
+
+  .box-001 p {
+    margin: 0;
+    padding: 0;
+  }
+</style>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/prism.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+  integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</html>
