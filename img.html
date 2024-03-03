@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html lang="ja">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTMLの勉強</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLで画像を表示させる|HTMLの勉強</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
         integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="icon" href="img/code-solid.svg">
 </head>
-
 <body>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2VL67PB2KW"></script>
@@ -23,68 +20,20 @@
 
         gtag('config', 'G-2VL67PB2KW');
     </script>
-    <div class="navbar-fixed">
-        <nav class="orange darken-1">
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">HTMLの勉強</a>
-                <ul class="right hide-on-med-and-down"></ul>
-            </div>
-
-        </nav>
-    </div>
     <div class="container">
-        <h1 class="center-align">HTMLの勉強</h1>
-        <p>
-            HTMLの勉強ができるサイトです。不定期にHTMLに関する記事を出していきます。
-        </p>
-        <p>
-            書いてほしい内容は、<a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdHGwo_A73mYMn3CiK2jOgnyDF4-bxVzkb_G_oPEhPdrfwwBQ/viewform?usp=sf_link">こちら</a>から受け付けています。
-        </p>
-        <div class="divider"></div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col s12">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title">HTMLでHello,World!と表示させる</span>
-                        <p>HTMLでHello,World!と表示させる方法をご紹介します。</p>
-                        <div class="chip orange darken-1 white-text">#Hello,World!</div>
-                        <div class="chip orange darken-1 white-text">#簡単</div>
-                    </div>
-                    <div class="card-action">
-                        <a href="helloworld.html" class="btn orange darken-1">OPEN</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title">HTMLで表を作る</span>
-                        <p>HTMLで表を作ります。</p>
-                        <div class="chip orange darken-1 white-text">#table</div>
-                        <div class="chip orange darken-1 white-text">#簡単</div>
-                    </div>
-                    <div class="card-action">
-                        <a href="table.html" class="btn orange darken-1">OPEN</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title">HTMLで画像を表示させる</span>
-                        <p>HTMLを使って画像を表示させます。</p>
-                        <div class="chip orange darken-1 white-text">#table</div>
-                        <div class="chip orange darken-1 white-text">#簡単</div>
-                    </div>
-                    <div class="card-action">
-                        <a href="img.html" class="btn orange darken-1">OPEN</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <h1>HTMLで画像を表示する</h1>
+        <p>HTMLで画像を表示させてみましょう！簡単ですよ！</p>
+        <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="qBwEKZW" data-preview="true" data-user="Penguin-123456" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+            <span>See the Pen <a href="https://codepen.io/Penguin-123456/pen/qBwEKZW">
+            img</a> by penguin-123456 (<a href="https://codepen.io/Penguin-123456">@Penguin-123456</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        <h3>タグの説明</h3>
+        <h4>&lt;img&gt;</h4>
+        <p>画像を挿入できるタグです。今回は（上のサンプル）上手く読み込めませんでしたが、もしかしたらできるかもしれません。</p>
+        <h4>alt=</h4>
+        <p>その画像を音声などで読み上げた時に読み上げるために追加できます。今は書く内容がなくてもalt=""だけでも書くことが推奨されています。</p>
     </div>
     <footer class="page-footer orange darken-1">
         <div class="container">
@@ -125,5 +74,4 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
-
 </html>
